@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/root_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:id="@+id/iv_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:src="@drawable/ic_arrow_back_white_24dp"/>
+
+            <TextView
+                    android:id="@+id/tv_toolbar_title"
+                    android:layout_toEndOf="@id/iv_back"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/label_details"/>
+
+        </RelativeLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:id="@+id/scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="?actionBarSize"
+            android:fillViewport="true">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:id="@+id/iv_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ian_dooley_347970_unsplash"/>
+
+            <TextView
+                    android:id="@+id/tv_product_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginTop="16dp"
+                    android:textSize="18sp"
+                    android:maxLines="2"
+                    tools:text="Jeans Janda"/>
+
+            <TextView
+                    android:id="@+id/tv_product_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorBlack"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="14sp"
+                    android:maxLines="2"
+                    android:layout_marginTop="10dp"
+                    tools:text="Rp.300.000"/>
+
+            <TextView
+                    android:id="@+id/tv_product_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorGrey"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:textSize="14sp"
+                    android:layout_marginTop="10dp"
+                    tools:text="@string/label_hint_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_checkout"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            app:fb_textSize="16sp"
+            app:fb_defaultColor="@color/colorPrimary"
+            app:fb_focusColor="@color/colorGrey"
+            app:fb_text="Masukan Ke Keranjang"/>
+
+</android.support.design.widget.CoordinatorLayout>

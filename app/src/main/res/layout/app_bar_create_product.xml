@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.AppBarLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+        <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:src="@drawable/ic_arrow_back_white_24dp"/>
+
+        <TextView
+                android:id="@+id/tv_app_name"
+                android:layout_toEndOf="@id/iv_logo"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/label_create_product"
+                android:layout_marginStart="10dp"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorWhite"/>
+
+    </RelativeLayout>
+
+</android.support.design.widget.AppBarLayout>

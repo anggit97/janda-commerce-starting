@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:fancy="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView android:layout_width="match_parent" android:layout_height="match_parent"
+               android:src="@drawable/splash_background" android:scaleType="fitXY"/>
+
+    <include layout="@layout/app_bar_create_product"/>
+
+    <LinearLayout
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+                                                       android:layout_height="wrap_content"
+                                                       android:layout_marginTop="100dp"
+                                                       android:layout_marginStart="20dp"
+                                                       android:layout_marginEnd="20dp"
+                                                       app:passwordToggleEnabled="true"
+                                                       app:passwordToggleTint="@color/colorWhite"
+                                                       android:textColorHint="@color/colorWhite"
+                                                       android:id="@+id/ll_name_product">
+
+            <android.support.design.widget.TextInputEditText android:layout_width="match_parent"
+                                                             android:layout_height="wrap_content"
+                                                             android:hint="@string/label_name_product"
+                                                             android:textColor="@color/colorWhite"
+                                                             android:inputType="textCapWords"
+                                                             android:textSize="14sp"
+                                                             android:textColorHint="@color/colorWhite"
+                                                             android:id="@+id/et_name_prouct"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+                                                       android:layout_height="wrap_content"
+                                                       android:layout_marginStart="20dp"
+                                                       android:layout_marginEnd="20dp"
+                                                       app:passwordToggleEnabled="true"
+                                                       app:passwordToggleTint="@color/colorWhite"
+                                                       android:textColorHint="@color/colorWhite"
+                                                       android:id="@+id/ll_desc_product">
+
+            <android.support.design.widget.TextInputEditText android:layout_width="match_parent"
+                                                             android:layout_height="wrap_content"
+                                                             android:minHeight="100dp"
+                                                             android:hint="@string/label_desc_product"
+                                                             android:textColor="@color/colorWhite"
+                                                             android:inputType="textCapWords"
+                                                             android:textSize="14sp"
+                                                             android:textColorHint="@color/colorWhite"
+                                                             android:id="@+id/et_desc_product"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+                                                       android:layout_height="wrap_content"
+                                                       android:layout_marginStart="20dp"
+                                                       android:layout_marginEnd="20dp"
+                                                       app:passwordToggleEnabled="true"
+                                                       app:passwordToggleTint="@color/colorWhite"
+                                                       android:textColorHint="@color/colorWhite"
+                                                       android:id="@+id/ll_price_product">
+
+            <android.support.design.widget.TextInputEditText android:layout_width="match_parent"
+                                                             android:layout_height="wrap_content"
+                                                             android:hint="@string/label_price"
+                                                             android:textColor="@color/colorWhite"
+                                                             android:inputType="number"
+                                                             android:textSize="14sp"
+                                                             android:textColorHint="@color/colorWhite"
+                                                             android:id="@+id/et_price_product"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+                                                       android:layout_height="wrap_content"
+                                                       android:layout_marginStart="20dp"
+                                                       android:layout_marginEnd="20dp"
+                                                       android:layout_marginTop="10dp"
+                                                       android:textColorHint="@color/colorWhite"
+                                                       android:id="@+id/ll_stock_product">
+
+            <android.support.design.widget.TextInputEditText android:layout_width="match_parent"
+                                                             android:layout_height="wrap_content"
+                                                             android:hint="@string/label_stock"
+                                                             android:textColor="@color/colorWhite"
+                                                             android:textSize="14sp"
+                                                             android:inputType="number"
+                                                             android:textColorHint="@color/colorWhite"
+                                                             android:id="@+id/et_stock"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <mehdi.sakout.fancybuttons.FancyButton
+                android:id="@+id/btn_add"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="40dp"
+                fancy:fb_textColor="@color/colorPrimary"
+                fancy:fb_text="Simpan"
+                fancy:fb_defaultColor="@color/colorWhite"
+                fancy:fb_focusColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

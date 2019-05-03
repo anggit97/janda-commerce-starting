@@ -1,0 +1,34 @@
+<RelativeLayout
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+            android:id="@+id/iv_latest_product"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ian_dooley_347970_unsplash"
+            android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chip_product"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+            android:elevation="5dp"
+            android:padding="10dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:text="@string/label_latest_product"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

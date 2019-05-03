@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Janda</string>
+    <string name="sub_app_name">Jadul &amp; Menggoda</string>
+    <string name="label_latest_product">Janda terbaru</string>
+    <string name="sub_header_janda">Janda merupakan ecommerce barang-barang jadul, namun tetap menggoda</string>
+    <string name="label_password">Password</string>
+    <string name="label_email">Email</string>
+    <string name="label_register">Anda belum terdaftar? silahkan regsiterasi disini</string>
+    <string name="label_name">Nama lengkap</string>
+    <string name="label_login">Sudah terdaftar? login disini</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_hint_produect">Janda Jeans</string>
+    <string name="label_hint_product_price">Rp.50.000</string>
+    <string name="label_details">Details</string>
+    <string name="label_hint_content"><![CDATA[>> SEMUA PRODUK KAMI MENDAPAT CASHBACK 3-5%
+        Sangat menguntungkan untuk dropshipper dan reseller
+
+        SEMUA FOTO ADALAH REAL PICT
+        SUPPLIER FIRST HAND / TANGAN PERTAMA
+
+        JAMINAN BARANG BERKUALITAS
+        TERBARU JAKET WINDBREAKER ORIGINAL FF, SUDAH RIBUAN TERJUAL DAN PEMBELI PUAS DENGAN DESIGN DAN BAHANNYA.
+
+        Keistimewaan :
+        - Model Simpel Terbaru
+        - Parasut Motif
+        - Anti Angin / Anti Air (BEBERAPA MODEL)
+        - Kantong depan 3 buah dilengkapi resleting
+        - HOODIE DAN PINGGANG ADA TALI KARET PENGATUR
+
+        Code : Windbreaker Original FF
+        Material : Parasut dalam puring hyget lembut
+        Detail : Model Simpel, BEST QUALITY, Ada Kantong bagian dada sebelah kiri
+
+        —>> Ready Stock WARNA, SESUAI VARIAN DI ARTIKEL :
+
+        Size :
+        L : panjang 67cm, lebar 54cm
+        XL : tambah 2cm
+
+        >> KALIAN JUGA BISA CHECK PRODUK UNGGULAN TOKO KAMI, KLIK LINK DI BAWAH INI:]]></string>
+    <string name="label_checkout">Checkout</string>
+    <string name="label_shipping_address">Alamat Pengiriman</string>
+    <string name="label_hint_shipping_address">Masukan alamat pengiriman produk</string>
+    <string name="label_thanks">Terima Kasih!</string>
+    <string name="label_thanks_content">Pesanan anda sedang kami proses. Silahkan bersabar, karena admin janda sedang
+        mengantar Anak sekolah.
+    </string>
+    <string name="label_ok">OK</string>
+    <string name="label_cart">Barang dibeli</string>
+    <string name="label_cart_empty">Keranjang anda masuk kosong</string>
+    <string name="label_create_product">Tambahkan produk</string>
+    <string name="label_price">Harga</string>
+    <string name="label_name_product">Nama Product</string>
+    <string name="label_stock">Stok</string>
+    <string name="label_desc_product">Deskripsi produk</string>
+    <string name="label_profile">Profil</string>
+</resources>
